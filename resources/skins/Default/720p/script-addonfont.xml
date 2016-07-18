@@ -10,6 +10,7 @@
             <texture>OneBlackPixel.png</texture>
             <aspectratio>scale</aspectratio>
         </control>
+    
         <control id="1" type="label">
             <description>text to show</description>
             <left>250</left>
@@ -21,9 +22,17 @@
             <label>Testing 1 Label</label>
             <font>AddonFont_Large</font>
         </control>
+                <control description="size guide1" type="image">
+            <left>650</left>
+            <top>200</top>
+            <width>1480</width>
+            <height>100</height>
+            <texture>OneWhitePixel.png</texture>
+            <aspectratio>scale</aspectratio>
+        </control>  
         <control id="2" type="label">
             <description>text to show2</description>
-            <left>350</left>
+            <left>100</left>
             <top>400</top>
             <width>1000</width>
             <visible>true</visible>
@@ -32,6 +41,14 @@
             <label>$ADDON[script.addonfont 32000]</label>
             <font>AddonFont_Medium</font>
         </control>
+                <control description="size guide2" type="image">
+            <left>650</left>
+            <top>400</top>
+            <width>1480</width>
+            <height>100</height>
+            <texture>OneWhitePixel.png</texture>
+            <aspectratio>scale</aspectratio>
+        </control>    
         <control id="655" type="button">
             <description>Exit button</description>
             <left>80</left>
@@ -45,5 +62,6 @@
             <disabledcolor>80FFFFFF</disabledcolor>
             <invalidcolor>FFFFFFFF</invalidcolor>
         </control>
+  
     </controls>
 </window>
