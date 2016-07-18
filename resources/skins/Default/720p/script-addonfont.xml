@@ -29,7 +29,7 @@
             <visible>true</visible>
             <align>center</align>
             <aligny>center</aligny>
-            <label>$ADDON[script.addontfont 32000]</label>
+            <label>$ADDON[script.addonfont 32000]</label>
             <font>AddonFont_Medium</font>
         </control>
         <control id="655" type="button">
