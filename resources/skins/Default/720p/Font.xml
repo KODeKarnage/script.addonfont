@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fonts>
+	<fontset id="Default">
+		<font>
+			<name>AddonFont_Large</name>
+			<filename>NotoSans-Regular.ttf</filename>
+			<linespacing>0.94</linespacing>
+			<size>48</size>
+		</font>
+		<font>
+			<name>AddonFont_Medium</name>
+			<filename>NotoSans-Regular.ttf</filename>
+			<linespacing>0.94</linespacing>
+			<size>24</size>
+		</font>
+		<font>
+			<name>font13</name>
+			<filename>Arial.ttf</filename>
+			<aspect>0.95</aspect>
+			<linespacing>0.94</linespacing>
+			<size>21</size>
+		</font>
+	</fontset>
+</fonts>

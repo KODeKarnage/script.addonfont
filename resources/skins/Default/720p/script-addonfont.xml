@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <defaultcontrol always="true">655</defaultcontrol>
+    <controls>
+        <control description="BG" type="image">
+            <posx>-100</posx>
+            <posy>-100</posy>
+            <width>1480</width>
+            <height>920</height>
+            <texture>OneBlackPixel.png</texture>
+            <aspectratio>scale</aspectratio>
+        </control>
+        <control id="1" type="label">
+            <description>text to show</description>
+            <left>250</left>
+            <top>200</top>
+            <width>1000</width>
+            <visible>true</visible>
+            <align>center</align>
+            <aligny>center</aligny>
+            <label>Testing 1 Label</label>
+            <font>AddonFont_Large</font>
+        </control>
+        <control id="2" type="label">
+            <description>text to show2</description>
+            <left>350</left>
+            <top>400</top>
+            <width>1000</width>
+            <visible>true</visible>
+            <align>center</align>
+            <aligny>center</aligny>
+            <label>$ADDON[script.addontfont 32000]</label>
+            <font>AddonFont_Medium</font>
+        </control>
+        <control id="655" type="button">
+            <description>Exit button</description>
+            <left>80</left>
+            <top>20</top>
+            <width>250</width>
+            <height>150</height>
+            <label>EXIT</label>
+            <font>font13</font>
+            <textcolor>FFFFFFFF</textcolor>
+            <focusedcolor>FFFFFFFF</focusedcolor>
+            <disabledcolor>80FFFFFF</disabledcolor>
+            <invalidcolor>FFFFFFFF</invalidcolor>
+        </control>
+    </controls>
+</window>
